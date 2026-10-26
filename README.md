@@ -30,16 +30,17 @@ En esta experiencia interactiva, **Tanjiro Kamado** actúa como tu mentor person
 
 2. **Configurar las variables de entorno:**
 Copia el archivo .env.example a un nuevo archivo .env en la raíz:
-
-cp .env.example .env
+    ```bash
+    cp .env.example .env
 
 3. **Edita .env y coloca tu clave real generada en Google AI Studio:**
-
-GEMINI_API_KEY=tu_clave_real_de_gemini
+    ```bash
+    GEMINI_API_KEY=tu_clave_real_de_gemini
 
 4. **Levantar el entorno de desarrollo completo (Frontend + Serverless Function):**
-
-npx vercel dev
+    ```bash
+    npx vercel dev
+    
 Abre http://localhost:3000 en tu navegador.
 
 5. **🧪 Ejecución de Tests Unitarios (Vitest)**
