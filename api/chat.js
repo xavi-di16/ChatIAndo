@@ -1,8 +1,7 @@
 // api/chat.js
 import { GoogleGenerativeAI } from '@google/generative-ai';
 
-// Usamos la familia Flash-Lite (o el modelo definido en .env)
-const MODEL_NAME = process.env.GEMINI_MODEL || 'gemini-2.5-flash-lite';
+const MODEL_NAME = process.env.GEMINI_MODEL;
 
 // System Prompt: Identidad, Tono, Reglas de Trainer, Guardrails Era Taisho y Longitud
 export const TANJIRO_SYSTEM_PROMPT = `
