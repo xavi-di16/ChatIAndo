@@ -40,10 +40,11 @@ Copia el archivo .env.example a un nuevo archivo .env en la raíz:
 4. **Levantar el entorno de desarrollo completo (Frontend + Serverless Function):**
     ```bash
     npx vercel dev
-    
-Abre http://localhost:3000 en tu navegador.
+
+    Abre http://localhost:3000 en tu navegador.
 
 5. **🧪 Ejecución de Tests Unitarios (Vitest)**
+
 El proyecto cuenta con una suite de tests unitarios en test/utils.test.js que valida funciones puras (validación, sanitización XSS, formateo de hora, inmutabilidad de historial, parseo de API) y mockea fetch para testear sendChatRequest sin depender de la red ni consumir tokens:
 
 npm test
