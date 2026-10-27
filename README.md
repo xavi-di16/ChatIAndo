@@ -46,6 +46,7 @@ Copia el archivo .env.example a un nuevo archivo .env en la raíz:
 5. **🧪 Ejecución de Tests Unitarios (Vitest)**
 
 El proyecto cuenta con una suite de tests unitarios en test/utils.test.js que valida funciones puras (validación, sanitización XSS, formateo de hora, inmutabilidad de historial, parseo de API) y mockea fetch para testear sendChatRequest sin depender de la red ni consumir tokens:
+    ´´´bash
+    npm test
 
-npm test
-(Para ejecutar una sola corrida en terminal sin modo watch: npx vitest run).
+    (Para ejecutar una sola corrida en terminal sin modo watch: npx vitest run).
