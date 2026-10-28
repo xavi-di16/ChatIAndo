@@ -2,7 +2,7 @@
 
 Single Page Application (SPA) responsive construida con HTML5, CSS3 Mobile-First y JavaScript Vanilla que permite conversar en tiempo real con **Tanjiro Kamado** (*Demon Slayer / Kimetsu no Yaiba*), potenciada por **Google Gemini AI** y asegurada mediante **Vercel Serverless Functions**.
 
-🔗 **Demo en Producción (Vercel):** `[Pegar aquí tu URL https://tu-proyecto.vercel.app]`
+🔗 **Demo en Producción (Vercel):** `https://chatiando-tanjiro.vercel.app/`
 
 ---
 
@@ -24,7 +24,7 @@ En esta experiencia interactiva, **Tanjiro Kamado** actúa como tu mentor person
 
 1. **Clonar el repositorio e instalar dependencias:**
    ```bash
-   git clone <URL_DE_TU_REPOSITORIO>
+   git clone https://github.com/xavi-di16/ChatIAndo.git
    cd chatiando-tanjiro
    npm install
 
