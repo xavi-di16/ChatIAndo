@@ -75,7 +75,9 @@ npm test
 
 ## 🤖 Registro del Uso de AI en el Proyecto (AI Prompting Log)
 
-Este documento registra el uso estratégico de Inteligencia Artificial como *Pair Programmer* y asistente técnico durante el diseño, desarrollo y depuración de **ChatIAndo**, aplicando rigurosamente la estructura de prompting avanzada del Módulo 3 (**Contexto → Objetivo → Restricciones → Evidencia → Formato de salida → Criterios de éxito**).
+Este Apartado registra el uso estratégico de Inteligencia Artificial como *Pair Programmer* y asistente técnico durante el diseño, desarrollo y depuración de **ChatIAndo**, aplicando rigurosamente la estructura de prompting avanzada del Módulo 3 (**Contexto → Objetivo → Restricciones → Evidencia → Formato de salida → Criterios de éxito**).
+
+(Aclaración para este proyecto use chats temporales de gemini argon por una cuestion de menor consumo de tokens pero deje un registro de los casos en que utilice la IA)
 
 ### 📱 Caso Técnico 1: Diseño Responsive Mobile-First y Aislamiento de Scroll en CSS3
 - **Contexto del Problema:** Al maquetar la vista de chat en dispositivos móviles pequeños (320px) y simular la apertura del teclado virtual mediante Chrome DevTools Device Mode, el contenedor del chat colapsaba y la barra de entrada de mensajes (`.chatComposer`) quedaba oculta o desplazada fuera del viewport. Además, el scroll afectaba a toda la página en lugar de limitarse exclusivamente al panel de mensajes (`.chatMessages`).
